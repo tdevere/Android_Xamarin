@@ -70,9 +70,11 @@ namespace AndroidXamarin
 
             //condition `fpctx->head.magic == FPSIMD_MAGIC' not met
             //https://github.com/microsoft/appcenter/issues/151
-            
-            AppCenter.Start("43448a3c-1a36-493e-bdc0-4eefed484e19",
-                   typeof(Analytics), typeof(Crashes));
+
+            AppCenter.Start("7d079094-9a5d-4885-993d-05028583b2b2",
+                  typeof(Analytics), typeof(Crashes));
+            /* AppCenter.Start("43448a3c-1a36-493e-bdc0-4eefed484e19",
+                    typeof(Analytics), typeof(Crashes));*/
 
             //AppCenter.SetUserId(@"{""ci"":""tdevere""}");
             AppCenter.SetUserId("789456123");
