@@ -185,8 +185,7 @@ namespace AndroidXamarin
 
         private void BtnHanledExceptionTest_Click(object sender, EventArgs e)
         {
-
-
+            throw new FileNotFoundException("App Center Test");
             //throw new MyCustomException(DateTime.Now.Ticks.ToString());
             //throw new Exception(DateTime.Now.Ticks.ToString());
             //NewMethodGroup0();
